@@ -1,17 +1,21 @@
-# Home Sweet Home 3.0
+# Home Sweet Home 3.1 — The Little Things Matter
 
-A cozy, offline-friendly iPhone web app. Built as an upgrade of the supplied Home Sweet Home 2.0.
+Preview build. Do not overwrite your existing live app until tested.
 
-## Important before updating
-- Export your current app backup first and verify the JSON file is saved.
-- This app intentionally retains the localStorage key `home-sweet-home-v1` for compatibility.
-- Deploy to a separate preview repository or URL for testing first. A different origin has different local storage.
-- Do not delete your existing Home Screen icon or clear website data.
-- After confirming the preview works, upload the files to the same existing GitHub Pages repository.
-- On iPhone, service worker cache may delay updates; a cache version bump is included.
+## Includes
+- Kids’ Corner with saved memories and daycare reminders
+- Morning Grace: NLT **references and external NLT reading links**, original motherhood reflections and prayers; no copyrighted NLT verse text embedded
+- Prayer journal, answered prayers, gratitude garden, saved Scripture references
+- Morning Basket, Tomorrow Me, Bare Minimum and Sick/Survival Mode, 10-minute and company-coming suggestions
+- Existing 2.0 cleaning, meals, groceries, calendar, maintenance, projects, export/import
+- Shark automatic nightly cleaning routine corrected
 
-## Features
-Morning Grace (KJV verses), bare minimum day, dashboard, meals, grocery copy for AnyList, laundry routine, maintenance, Shark automatic nightly run, decluttering, quick capture, Bailey notes, seasonal storage, household inventory, and backup import/export.
+## Safe testing
+1. Export and verify a backup from your live Home Sweet Home app.
+2. Create or use a **separate preview repository** (e.g. home-sweet-home-preview). Upload files in this ZIP’s home-sweet-home folder to its root.
+3. Open the GitHub Pages preview URL in Safari. Do not remove the old Home Screen app.
+4. Test saving a memory, a prayer, a gratitude entry and survival mode; reload and check persistence.
+5. Preview and live sites use separate origins, so they have separate localStorage even though the storage key is the same.
 
-## Limits
-Push notifications and live Google Calendar integration are not implemented. This static GitHub Pages app does not sync across devices. Copy for AnyList is a clipboard handoff, not direct integration. Daily verses rotate from a bundled selection, without an online scripture feed.
+## Privacy and limitations
+Data stays in the browser’s localStorage until exported. No cloud sync, push notifications, Google Calendar or AnyList API sync is implemented. No copyrighted NLT text is stored. Scripture links require internet.
