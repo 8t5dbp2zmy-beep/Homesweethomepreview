@@ -23,3 +23,6 @@ button,input,a{touch-action:manipulation} .button{min-height:40px}
 
 /* Little Cottage 3.2 enhancements */
 .garden{background:linear-gradient(165deg,#fff8f1,#eaf1e7)}.helping{background:linear-gradient(155deg,#f9eaf0,#f2f6f5)}.brain-line{border-bottom:1px solid #e9e2e0;padding:12px 0;display:grid;gap:8px}.brain-line .row-actions{flex-wrap:wrap}.row-actions{flex-wrap:wrap}details{padding:10px 0}details summary{cursor:pointer;font-weight:600}details li{margin:9px 0;line-height:1.5}.garden svg{display:block;margin:8px auto}.helping .button{font-size:.84rem}
+
+/* 3.2.1 recipe cards and gentle garden motion */
+.recipe-ingredients{columns:2;column-gap:20px;padding-left:20px;font-size:14px;line-height:1.7}.recipe-ingredients li{break-inside:avoid}.recipe-card h3{line-height:1.35}.toddler-tip{background:#f8f0ed;border-radius:12px;padding:11px 13px;font-size:13px;line-height:1.55}.garden-scene{display:block;overflow:visible}.garden-flower{animation:garden-grow .7s cubic-bezier(.18,.8,.3,1) both}@keyframes garden-grow{from{opacity:0;transform:scale(.2) translateY(18px)}to{opacity:1;transform:scale(1) translateY(0)}}@media(prefers-reduced-motion:reduce){.garden-flower{animation:none!important}}@media(max-width:370px){.recipe-ingredients{columns:1}}
