@@ -1,0 +1,1 @@
+3.1.5: Survival Mode now changes Morning Basket, Tomorrow Me, Today, and hides weekly chores in Routines. Friday and Saturday evenings omit daycare prep; weekend mornings omit daycare tasks. Existing local storage is unchanged. Upload the contents of this folder to the preview repo.
