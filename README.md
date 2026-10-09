@@ -19,3 +19,7 @@ Preview build. Do not overwrite your existing live app until tested.
 
 ## Privacy and limitations
 Data stays in the browser’s localStorage until exported. No cloud sync, push notifications, Google Calendar or AnyList API sync is implemented. No copyrighted NLT text is stored. Scripture links require internet.
+
+
+## 3.1.1 inline NLT update
+Morning Grace now shows the complete text of one of three verified NLT verses directly on the Today dashboard, offline. Includes Tyndale's attribution. The verses rotate daily; reflections and prayers remain on the same card. Other data uses the existing `home-sweet-home-v1` key unchanged. To deploy, replace all files at the root of the preview repository and wait for GitHub Pages Actions to finish. If the page is stale, close/reopen Safari or use a fresh private tab; do not clear website data.
