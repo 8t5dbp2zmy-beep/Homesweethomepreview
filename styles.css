@@ -20,3 +20,6 @@ button,input,a{touch-action:manipulation} .button{min-height:40px}
 /* Morning Grace: readable inline Scripture, no external page required */
 .nlt-verse{margin:16px 0 20px;padding:18px 16px;border-radius:16px;background:#fffdfb;color:#4d6574;font-size:1.22rem;line-height:1.65;text-align:center;font-family:Georgia,serif;white-space:pre-line;border:1px solid #e8dcd8}
 .nlt-credit{font-size:.65rem;line-height:1.45;color:#777078;margin-top:20px}
+
+/* Little Cottage 3.2 enhancements */
+.garden{background:linear-gradient(165deg,#fff8f1,#eaf1e7)}.helping{background:linear-gradient(155deg,#f9eaf0,#f2f6f5)}.brain-line{border-bottom:1px solid #e9e2e0;padding:12px 0;display:grid;gap:8px}.brain-line .row-actions{flex-wrap:wrap}.row-actions{flex-wrap:wrap}details{padding:10px 0}details summary{cursor:pointer;font-weight:600}details li{margin:9px 0;line-height:1.5}.garden svg{display:block;margin:8px auto}.helping .button{font-size:.84rem}
